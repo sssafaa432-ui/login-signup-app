@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reset Password</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Enter New Password</h1>
+    <form id="resetForm">
+      <input type="password" id="newPassword" placeholder="Enter Password" required>
+
+      <p class="password-rules">
+        Password must:<br>
+        - Be at least 10 characters<br>
+        - Include a number
+      </p>
+
+      <input type="password" id="confirmNewPassword" placeholder="Confirm Password" required>
+
+      <button type="submit">Finish</button>
+    </form>
+
+    <p><a href="signup.html">Sign Up</a> | <a href="login.html">Login</a></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
